@@ -1,0 +1,41 @@
+/*
+  Theme Name: marinabcoding-com-portfolio-theme
+  Author: Marina Brodskaya
+  Author URI: http://marinabcoding.com/
+  Description: A post modern, simple, responsive portfolio to show my work in wordpress
+  Version: 1.0
+  License: GNU General Public License v2 or later
+  License URI: http://www.gnu.org/licenses/gpl-2.0.html
+  Tags: one-column, two-columns, left-sidebar, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+  Text Domain: marinabcoding-com-portfolio-theme
+
+  At marinabcoding.com, we believe that your passion and truth is what matters the most. Use this site to make your dreams a reality.
+*/
+
+
+//   Libs
+// -------------------------------------
+
+// @import "libs/library-variable-overrides";
+// @import "compass";
+@import "libs/normalize";
+
+// -------------------------------------
+//   Core
+// -------------------------------------
+
+// ----- Utilities - Extends, Functions, and Mixins ----- //
+@import "core/utilities";
+
+// ----- Base - Base-level tags (body, p, etc.) ----- //
+@import "core/header";
+@import "core/main";
+
+// ----- Layout - Margin, Padding, Sizing ----- //
+@import "core/layout";
+
+// ----- Typography - Fonts and Colors ----- //
+@import "core/typography";
+
+// ----- Modules - Imports all module files. ----- //
+@import "core/modules";

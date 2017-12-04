@@ -1,0 +1,49 @@
+// -------------------------------------
+//   Base
+// -------------------------------------
+// ----- Global defaults for Base-level tags (body, p, etc.)
+// -------------------------------------
+
+.box {
+  height: 261px;
+  width: 49%;
+  float: left;
+  margin-bottom: 1%;
+  -webkit-transition: all 1s ease-in-out .25s;
+  -moz-transition: all 1s ease-in-out .25s;
+  -ms-transition: all 1s ease-in-out .25s;
+  -o-transition: all 1s ease-in-out .25s;
+  transition: all 1s ease-in-out .25s;
+}
+
+.blue{
+  background: #0600ff;
+  width: 100%;
+}
+
+.green {
+  background: #00ff12;
+  margin-right: 1%;
+}
+
+.red {
+  background: #ff0000;
+  float: right;
+  margin-left: 1%;
+}
+
+
+@include breakpoint(767px){
+  .box {
+    width: 200px;
+    display: inline-block;
+  }
+
+  .blue {
+    width: calc(98% - 400px);
+    position: absolute;
+    left: calc(200px + 1%);
+  }
+
+}
+
